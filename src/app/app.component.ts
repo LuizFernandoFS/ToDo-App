@@ -10,7 +10,7 @@ import { Todo } from 'src/models/todo.model';
 export class AppComponent {
   public mode: string = 'list';
   public todos: Todo[] = [];
-  public title: string = 'Minhas Tarefas';
+  public title: string = 'Minhas Tarefas:';
   public form: FormGroup;
 
 
